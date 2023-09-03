@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+
+        .box{
+            height: 300px;
+            width: 300px;
+            margin: auto;
+            margin-top: 200px;
+            background-color: red;
+            /* transition-property: background-color,border-radius,height,width;
+            transition-duration: 5s; */
+             transition: all 5s;
+
+        }
+        .box:hover{
+            background-color:cadetblue;
+        
+            height: 100px;
+            width: 100px;
+            cursor: pointer;
+            
+            transform: translateY(500px);
+            transform: translateX(500);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    
+    </div>
+</body>
+</html>

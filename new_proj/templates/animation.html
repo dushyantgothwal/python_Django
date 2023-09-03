@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 300px;
+            width: 300px;
+            background-color: brown;
+            position:fixed;
+            animation-name: dushyant;
+            animation-duration: 8s;
+            
+            
+        }
+        @keyframes dushyant{
+            /* from{
+                width: 200px;
+                background-color: black;
+                border-radius: 30px;
+                border: 2px solid red;
+                
+            }
+
+            
+            to{
+                width: 100%;
+                background-color: chartreuse;
+                border-radius: 200px;
+                height: 700px;
+                border: 6px dashed gold;
+                
+            } */
+
+
+
+            0%{
+                top: 0;
+                left: 0;
+                background-color: red;
+
+            }
+            25%{
+                top: 0;
+                left: 90%;
+                background-color: blue;
+                border-radius: 80px;
+            }
+
+            50%{
+                top: 400px;
+                left: 90%px;
+                background-color: cadetblue;
+                border: 10px dashed violet;
+            }
+            75%{
+                top: 400px;
+                left: 0px;
+                background-color: chocolate;
+                border-radius: 50px;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+                background-color: coral;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>
